@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="contatiner">
       <div className="row justify-content-center">
-        <div className="card text-center" style={{ width: '30rem', border: 'double' }}>
+        <div className="card text-center" style={{ width: '100%', border: 'double' }}>
           <h1 className="card-title"> Submit A Post</h1>
           <NewPost addPost={p => setPostList([...postList, p])} parentsName="" />
         </div>
